@@ -124,7 +124,7 @@
  * the cake shell command: cake schema create Sessions
  *
  */
-	Configure::write('Session.save', 'php');
+	Configure::write('Session.save', 'database');
 
 /**
  * The model name to be used for the session model.
@@ -133,7 +133,7 @@
  *
  * The model name set here should *not* be used elsewhere in your application.
  */
-	//Configure::write('Session.model', 'Session');
+	Configure::write('Session.model', 'Session');
 
 /**
  * The name of the table used to store CakePHP database sessions.
@@ -164,13 +164,15 @@
  * characters."
  * @link http://php.net/session_name
  */
-	Configure::write('Session.cookie', 'CAKEPHP');
+	Configure::write('Session.cookie', 'STARWORLD');
 
 /**
  * Session time out time (in seconds).
  * Actual value depends on 'Security.level' setting.
  */
-	Configure::write('Session.timeout', '120');
+ 
+ //Aaron Changed this to be much longer.
+	Configure::write('Session.timeout', '30000');
 
 /**
  * If set to false, sessions are not automatically started.
@@ -182,7 +184,7 @@
  * in the session. You might want to set the value to false, when dealing with
  * older versions of IE, Chrome Frame or certain web-browsing devices and AJAX
  */
-	Configure::write('Session.checkAgent', true);
+	Configure::write('Session.checkAgent', false);
 
 /**
  * The level of CakePHP security. The session timeout time defined
@@ -201,12 +203,12 @@
 /**
  * A random string used in security hashing methods.
  */
-	Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubWwvniR2G0FgaC9mi');
+	Configure::write('Security.salt', 'jjdbhr784y7Quid23oohjaG&34343FGHSpoiFD');
 
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.
  */
-	Configure::write('Security.cipherSeed', '76859309657453542496749683645');
+	Configure::write('Security.cipherSeed', '657365432567348596787006');
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).
