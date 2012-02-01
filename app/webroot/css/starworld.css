@@ -1,0 +1,209 @@
+/*
+Curly iPhone Web Template
+http://scripter.mobi
+Quality iPhone Web Templates, Scripts and more!
+Release Date: November 2nd 2010
+Version 1.0
+ 
+COLORS
+---------------
+BLUE: #5e93a4
+
+*/
+
+
+.input label,span.input {display:none;}
+
+.message {margin:15px;font-size: 30px;}
+
+
+	body {
+		margin: 0; padding: 0;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 16px;
+		
+	
+	}
+	#container {
+		margin: 0; padding: 0;
+
+	}
+	
+	#container form {
+		
+		width:100%;
+		
+	}
+	
+#container input {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0px 0 20px 0;
+    padding: 6px 6px 6px 6px;
+    font-size: 16px;
+    font-weight: normal;
+    height:35px;
+}
+	#container input.button {
+		
+		height:35px;
+	}
+	
+	#container ul {
+		padding-left: 20px;
+	}
+	
+	#container .gform_body ul {
+		padding-left: 5px;
+	}
+	
+	.header, .footer {
+		padding: 5px;
+		background: #5e93a4; 
+		text-align: center;
+		color: #fff;
+	}
+	#bottom {
+		height: 19px;
+		background: url('../img/top.png') center no-repeat;
+		background-color: #5e93a4;
+		display: block;
+	}
+	#footer {
+		height: 19px;
+		background: url('../img/bottom.png') center no-repeat;
+		background-color: #5e93a4;
+		display: block;		
+	}
+	h1, h2, h3 {
+		font-family: 'Cuprum', Arial, Sans-Serif;	
+		padding: 10px 0 10px 0; margin: 0;
+		font-size:20px;
+	}
+	div.header h1 a {
+		color: #fff;
+		text-decoration: none;
+		font-size: 130%;
+	}
+	#content_container {
+		/*background: #5e93a4;*/
+		width:300px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#content {
+		width: 95%;
+		margin: 0 auto;	
+		padding: 10px;
+		background: #fff;
+	}
+	#content p {
+		color: #333;
+		line-height: 120%;
+		margin: 0 0 10px 0;
+	}
+	a img {
+		border: 0;
+	}
+	
+	
+	
+	#menu {
+		padding: 0;
+		margin: 10px 0 0 0;
+		border-top: 1px solid #add4e1;
+	}
+	
+	#menu ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;	
+	}
+	#menu li {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	#menu li a {
+		display: block;
+		height: 50px;
+		font-size: 130%;
+		padding: 0 0 0 15px;		
+		font-family: Tahoma, Arial, Verdana;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		line-height: 50px;
+		color: #5e93a4;
+		text-decoration: none;
+		border-bottom: 1px solid #add4e1;
+	}
+	#menu li.current a {
+		display: block;
+		height: 50px;
+		padding: 0 0 0 15px;
+		font-size: 130%;
+		font-family: Tahoma, Arial, Verdana;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		line-height: 50px;
+		color: #fff;
+		background: #5e93a4;
+		text-decoration: none;
+		border-bottom: 1px solid #add4e1;
+	}
+	#menu li.current a span.arrow {
+		float: right;
+		margin: 0 10px 0 0;
+		background: url('../img/arrow_current.png') center no-repeat;
+		line-height: 50px;
+		width: 20px;
+		height: 50px;		
+	}
+	span.arrow {
+		float: right;
+		margin: 0 10px 0 0;
+		background: url('../img/arrow.png') center no-repeat;
+		line-height: 50px;
+		width: 20px;
+		height: 50px;
+	}
+	img.image {
+		float: left;
+		padding: 5px;
+		border: 2px solid #ddd;
+		margin: 5px 6px 0px 0px;
+	}
+	div.clear {
+		clear: both;
+	}
+	
+	#blog {
+		margin: 10px 0 0 0;
+	}
+	
+	#blog ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		border-top: 1px solid #add4e1;
+	}
+	
+	#blog li {
+		list-style: none;
+		border-bottom: 1px solid #add4e1;
+		padding: 0;
+		margin: 0;
+	}	
+	
+	#blog li a {
+		display: block;
+		padding: 5px;
+		text-decoration: none;
+		color: #000;
+	}
+	
+	#blog li a h2 {
+		font-size: 110%;
+	}
+	
+	
